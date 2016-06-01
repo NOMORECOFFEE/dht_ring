@@ -3,6 +3,6 @@
   {description, "Consistent hashing ring for Distributed Hash Tables (DHT)"},
   {vsn, "1.0.0"},
   {registered, []},
-  {applications, [kernel, stdlib]},
+  {applications, [kernel, stdlib, lager]},
   {env, []}
  ]}.
